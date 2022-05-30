@@ -8,11 +8,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" 
+     crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!-- header-two -->
     <header class="header-two">
+        <div class="container"> 
         <a class="header-two-logo link" href=""><span class="span">Web</span>Studio</a>
         <nav class="header-two-nav">
          <ul class="header-two-list list">
@@ -25,16 +30,22 @@
              <li ><a class="header-two-mail link"  href="milto: info@devstudio.com"  >info@devstudio.com</a></li>
              <li ><a class="header-two-tel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
+    </div>
      </header>
      <main>
          <!-- section-two -->
      <section class="section-two">
+     <div class="container">
+        <div class="hero-two">
          <h1 class="section-two-title">Эффективные решения для вашего бизнеса</h1>
          <button  type="button" class="section-two-btn" > Заказать услугу</button>
+        </div>
+        </div>
      </section>
     </main>
     <!-- section-three -->
     <section class="section-three">
+        <div class="container">
        <h2 class="section-three-title"> Наши преимущества</h2>
        <ul class="section-three-list list">
            <li class="section-three-item">
@@ -54,9 +65,11 @@
                <p class="section-three-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
        </ul>
+    </div>
     </section>
     <!-- section-four -->
     <section class="section-four">
+        <div class="container">
         <h2 class="section-four-title">Чем мы занимаемся</h2>
         <ul class="section-four-list list">
             <li class="section-four-item"><img src="./img/photo1.jpg" 
@@ -75,44 +88,58 @@
                   height="294">
             </li>
         </ul>
+    </div>
     </section>
     <!-- section-five -->
     <section class="section-five">
+        <div class="container">
         <h2 class="section-five-title">Наша команда</h2>
         <ul class="section-five-list list">
             <li class="section-five-item">
+                <div class="photo-4">
                 <a  class="link" href="">
                 <img src="./img/img-photo-4.jpg" alt="Игорь" width="270" height="260">
                 <h3 class="stn-title link">Игорь Демьяненко</h3>
                 <p lang="en"class="stn-text  link" >Product Designer</p>
-            </a>
+                </a>
+               </div>
             </li>
             <li class="section-five-item">
+              <div class="photo-5">
                 <a class="link" href="">
                 <img src="./img/img-photo-5.jpg" alt="Ольга" width="270" height="260">
                 <h3 class="stn-title link">Ольга Репина</h3>
                 <p lang="en"class="stn-text link" >Frontend Developer</p>
-            </a>
+               </a>
+        </div>
             </li>
             <li class="section-five-item">
+                <div class="photo-6">
                 <a class="link" href="">
                 <img src="./img/img-photo-6.jpg" alt="Николай" width="270" height="260">
                 <h3 class="stn-title link">Николай Тарасов</h3>
                 <p lang="en" class="stn-text link">Marketing</p>
             </a>
+        </div>
             </li>
             <li class="section-five-item">
+                <div class="photo-7">
                 <a class="link" href="">
                 <img src="./img/img-photo-7.jpg" alt="Михаил" width="270" height="260">
                 <h3 class="stn-title " >Михаил Ермаков</h3>
                 <p lang="en" class="stn-text ">UI Designer</p>
             </a>
+        </div>
             </li>
         </ul>
+    </div>
     </section>
     <!-- footer-two -->
     <footer class="footer-two">
+        <div class="container">
+            <div class="webstudio">
         <a class="footer-two-logo link" href=""><span class="span" >Web</span>Studio</a>
+    </div>
         <address class="footer-two-address">
             <ul class="footer-two-list list" >
                 <li class="footer-two-item" >
@@ -125,6 +152,7 @@
             <a href= "tel:+380991111111" class="footer-two-link link">+38 099 111 11 11</a>
         </li>
         </ul>
+    </div> 
         </address>
  </footer>
 </body>
