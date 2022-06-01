@@ -218,6 +218,42 @@ line-height: 1.88;
 letter-spacing: 0.03em;
 color:var(--main-title-color) ;
 }
+.section-three-title{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.section-three-list {
+    display: flex;
+}
+.section-three-item{
+    max-width: 270px;
+    margin-left: 30px;
+}
+.section-four-title{
+    text-align: center;
+}
+.section-four-list {
+    display: flex;
+    margin-top: 50px;
+  
+}
+.section-four-item{
+    
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: 10px;
+}
+.section-four-list{
+    margin-left: -20px;
+}
+.section-five-title{
+    text-align: center;
+    
+}
+.section-five-list{
+    display: flex;
+    margin-top: 50px;
+}
                         /* footer */
 .footer-link
 {
@@ -382,7 +418,7 @@ margin-bottom: 30px;
     line-height: 1.16;
     letter-spacing: 0.03em;
     color:var(--title-color) ; 
-  margin-bottom: 50px;
+ 
  }
            /*  section-five-title*/
 .section-five-title{
