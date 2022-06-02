@@ -177,10 +177,6 @@ margin-right: 10px;
     margin-bottom: 30px;
  }
 
-.section{
-
-}
-
 .stn{ color: #212121;
 text-align: center;
 margin-bottom: 20px;
@@ -426,6 +422,7 @@ margin-left: 30px;
     color:var(--title-color) ; 
  
  }
+ 
            /*  section-five-title*/
 .section-five-title{
 font-weight: 700;
