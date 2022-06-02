@@ -6,7 +6,7 @@
 }
 
 h1, h2, h3, p, ul{
-    margin: 0 ;
+    margin: 0  auto;
 
 }
 body {
@@ -16,9 +16,6 @@ body {
     color: #757575;
     background-color:  #E5E5E5;
 }
-.section .container{
- 
-}
 .container{
     width: 1200px;
     margin: 0 auto;
@@ -26,6 +23,7 @@ body {
     padding-right: 15px;
    outline: 1px solid tomato;
 }
+
 
                          /* header */
 .header-logo{
@@ -38,7 +36,7 @@ letter-spacing: 0.03em;
 color:var(--title-color); 
 margin-right: 95px;
 }
-.header-two-logo{
+.header-two-logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -61,7 +59,7 @@ margin-right: 95px;
     margin: 50px;
 }
 .header-two-item{
-    margin-right: 50px;
+    margin: 50px;
 }
  
 .heder .container{
@@ -69,6 +67,7 @@ margin-right: 95px;
     align-items: center;
     height: 80px;
 }
+
 
 .header-two .container{
     height: 80px;
@@ -170,11 +169,11 @@ margin-right: 10px;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: -30px;
-    margin-left: -5px;
+    margin-left: -70px;
 }
  .section-one-list {
-    flex-basis: calc(100% / 3 - 5px);
-    margin-left: 5px;
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: 30px;
     margin-bottom: 30px;
  }
 
@@ -244,7 +243,7 @@ color:var(--main-title-color) ;
     margin-left: 10px;
 }
 .section-four-list{
-    margin-left: -20px;
+    margin-left: -30px;
 }
 .section-five-title{
     text-align: center;
@@ -277,6 +276,7 @@ color:var(--main-title-color);
 .footer, .footer-two
 {
 background-color: rgb(124, 175, 36);
+
 }
 .footer-logo{
 font-family: 'Raleway';
@@ -399,15 +399,21 @@ margin: 30px;
     color:var(--main-title-color);
  }
                     /* section-four */
-.section-four{
+.section-four .container{
     padding-top: 94px;
+    
 }
-.section-five{
+.section-five-list{
+    margin-left: -70px;
+}
+.section-five {
   padding-top: 94px;
   padding-bottom: 94px;
+  
 }
 .section-five-item{
-margin-bottom: 30px;
+flex-basis: calc((100% -90 ) / 4);
+margin-left: 30px;
 }
 .section-four-item{
     margin-top: 30px;
