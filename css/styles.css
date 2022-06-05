@@ -6,7 +6,8 @@
 }
 
 h1, h2, h3, p, ul{
-    margin: 0  auto;
+    margin: 0 ;
+    padding: 0;
 
 }
 body {
@@ -14,14 +15,14 @@ body {
     font-size: 14px;
     letter-spacing: 0.03em;
     color: #757575;
-    background-color:  #E5E5E5;
+    background-color:#FFFFFF; 
 }
 .container{
     width: 1200px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-   outline: 1px solid tomato;
+  
 }
 
 
@@ -51,15 +52,20 @@ margin-right: 95px;
 }
 .header-list{
     display: flex;
+    padding: 0;
+    margin: 0;
 }
 .header-two-list{
     display: flex;
+    padding: 0;
+    margin: 0;
 }
 .header-item {
-    margin: 50px;
+    margin: 20px;
+    
 }
 .header-two-item{
-    margin: 50px;
+    margin: 20px;
 }
  
 .heder .container{
@@ -73,6 +79,7 @@ margin-right: 95px;
     height: 80px;
     display: flex;
     align-items: center;
+    
 }
 .header-two-mail{
     margin-right: 50px;
@@ -83,6 +90,7 @@ margin-right: 95px;
  line-height: 1.14;
  letter-spacing: 0.02em;
  color:var(--title-color) ;
+ padding: 30px;
  }
 .link{
 text-decoration: none;
@@ -142,9 +150,8 @@ color:var(--main-title-color) ;
     list-style: none ;
 
     align-items: center;
-    margin-left: auto;
-   
-    
+   margin: 0;
+    padding: 0;
 }
                                  /* section */
 .section-btn
@@ -294,6 +301,7 @@ color:var(--title-color) ;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--title-color) ;
+    padding: 30px;
  }
  .footer-item{
      margin-bottom: 9px;
@@ -331,11 +339,16 @@ padding-top: 94px;
 padding-bottom: 94px;
         }
              /* section-two */
- .hero-two{
+ 
+ 
+  .section-two .container{
     padding: 200px 275px 280px 275px;
-    text-align:center;
-
- }
+    text-align:center;   
+    background-color:#2F303A; 
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  
   
  
 .section-two-title{
@@ -358,17 +371,9 @@ line-height: 1.88;
 letter-spacing: 0.06em;
 color:var(--fonfocus-color) ;
 margin: 30px;
+background-color: #2196F3;;
+}
 
-}
-.section-two-btn:hover
-{
-    background: #2196F3;
-}
-.section-two-btn:focus
-{
-    background: #2196F3; 
-    color:var(--fonfocus-color) ;
-}
          /*  section-three */
  .section-three-title{
     font-weight: 700;
@@ -407,8 +412,8 @@ margin: 30px;
   padding-bottom: 94px;
   
 }
-.section-five-item{
-flex-basis: calc((100% -90 ) / 4);
+.section-five-item {
+flex-basis:calc((100% -90) / 4);
 margin-left: 30px;
 }
 .section-four-item{
@@ -440,9 +445,6 @@ font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
 color: #212121;
-}
-.section-list{
-
 }
 .stn-text{
     font-weight: 400;
@@ -482,8 +484,6 @@ color:var(--main-title-color) ;
 .footer-two-item{
     margin-bottom: 9px;
     margin-top: 20px;
-}
-.footer-two-item{
 }
 .footer .container{
     height: 250px;
