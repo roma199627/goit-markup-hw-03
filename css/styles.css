@@ -65,14 +65,6 @@ padding-bottom: 25px ;
     padding: 0;
     margin: 0;
 }
-.header-item {
-    
-    
-}
-.header-two-item{
-   
-    
-}
  
 .heder .container{
     display: flex;
@@ -180,7 +172,8 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--title-color) ;
-margin-right: 10px;
+margin-right: 8px;
+padding:  6px 22px 6px 22px;
 
 
 }
@@ -215,6 +208,8 @@ padding-top: 20px;
 {
     background: #2196F3; 
     color:var(--fonfocus-color) ;
+  
+
 }
                     /*section-one  */
 
@@ -298,7 +293,10 @@ padding-top: 60px;
     background: #2F303A;
 
 }
-
+.footer-list{
+    margin-top: 20px;
+    margin-left: 0px;   
+}
 .footer-logo{
 font-family: 'Raleway';
 font-style: normal;
@@ -308,6 +306,7 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color:var(--title-color) ; 
 color:#FFFFFF ;
+
 }
 
 
@@ -432,9 +431,6 @@ padding: 10px 32px 10px 32px;
     padding-bottom: 94px;
     
 }
-.section-five-list{
-
-}
 .section-five {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -447,12 +443,10 @@ margin-left: 30px;
 text-align: center;
 background: #FFFFFF;
 }
-.section-four-item{
-   
-}
+
 .img{
     display: block;
-    max-width: 100% auto;
+    max-width: 100% ;
     
 }
  .section-four-title{
@@ -461,8 +455,6 @@ background: #FFFFFF;
     line-height: 1.16;
     letter-spacing: 0.03em;
     color:var(--title-color) ; 
-   
- 
  }
  
            /*  section-five-title*/
@@ -474,13 +466,20 @@ letter-spacing: 0.03em;
 margin-bottom: 50px;
 color:var(--title-color)
 }
+.one-text{
+ border-bottom: 20px; 
+border-left:24px ;
+border-right:24px ;
+padding: 20px 24px 20px 24px;
+
+}
 .stn-title{
  font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
 color: #212121;
-margin: 30px auto 10px auto;
+margin: 32px auto 10px auto;
 }
 .stn-text{
     font-weight: 400;
@@ -498,7 +497,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
- 
+margin-top: 444px;
  color:#FFFFFF ;
 padding-left: 0px;
 }
@@ -513,6 +512,10 @@ color:var(--main-title-color) ;
 .footer-two-item{
     margin-bottom: 9px;
     
+}
+.footer-two-list{
+ margin-top: 20px;
+    margin-left: 0px;
 }
 .footer .container{
     height: 250px;
