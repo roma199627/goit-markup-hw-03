@@ -399,7 +399,13 @@ padding-bottom: 94px;
     margin: 0 auto;
   }
   
-  
+  .header-two-list{
+    color: var(--title-color);
+  }
+ .header-two-list .link .current{
+    color: var(--hover-footer-color);
+ }
+ 
  
 .section-two-title{
     font-family: 'Roboto';
