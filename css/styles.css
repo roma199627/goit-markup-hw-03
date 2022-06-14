@@ -401,7 +401,7 @@ padding-bottom: 94px;
   }
   
   
-  .header-list .link .current{
+  .header-list .list.link .current{
    color:  var(--hover-footer-color);
   }
  
