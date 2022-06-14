@@ -65,6 +65,7 @@ padding-bottom: 25px ;
     display: flex;
     padding: 0;
     margin: 0;
+    
 }
  
 .heder .container{
@@ -129,8 +130,8 @@ color:var(--main-title-color) ;
 .header-tel:focus {
     color:var(--hover-footer-color) ;
 }
-.header-item:active{
-
+.header-two-logo::content{
+background: #2196F3;
     
 }
 
@@ -352,10 +353,13 @@ color:#FFFFFF ;
      font-style: normal;
      
  }
- .hesder-two-link:hover{
-    color:var(--hover-footer-color);
+ 
+
+ 
+ .hesder-two-link:hover {
+    color: var(--hover-footer-color);
  }
- .hesder-two-link:focus{
+ .hesder-two-link :focus{
     color:var(--hover-footer-color) ;
 
  }
