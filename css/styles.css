@@ -401,8 +401,8 @@ padding-bottom: 94px;
   }
   
   
-  .current{
-   color:  var(--hover-footer-color);
+  .current{ 
+   color: var(--hover-footer-color);
   }
  
   
